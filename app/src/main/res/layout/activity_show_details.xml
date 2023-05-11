@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.mainactivities.ShowDetails">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginVertical="5dp">
+
+                <ImageView
+                    android:id="@+id/backPressButton"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_arrow_left"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="70"
+                    android:layout_height="wrap_content"
+                    android:text="Full Information"
+                    android:fontFamily="@font/roboto_condensed_bold"
+
+                    android:textSize="30sp"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="5dp"
+                    android:textStyle="bold"
+                    android:gravity=""/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Patient's Details"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="5dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/patientNameTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Patient Name:"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginVertical="5dp"/>
+
+            <TextView
+                android:id="@+id/patientAgeTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Patient Age:"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginVertical="5dp"/>
+
+            <TextView
+                android:id="@+id/patientNumTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact Info:"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginVertical="5dp"/>
+
+            <TextView
+                android:id="@+id/patientAddressTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Address:"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginVertical="5dp"/>
+
+            <TextView
+                android:id="@+id/patientbgrpTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Required Blood Group:"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginVertical="5dp"/>
+
+            <TextView
+                android:id="@+id/patientRelationTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Patient Relation:"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginVertical="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Posted By"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:gravity=""/>
+
+            <TextView
+                android:id="@+id/usernameTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name:"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginVertical="5dp"/>
+
+            <TextView
+                android:id="@+id/addressTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Address:"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginVertical="5dp"/>
+
+            <TextView
+                android:id="@+id/phNumTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact Number:"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginVertical="5dp"/>
+            
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>
